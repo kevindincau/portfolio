@@ -31,7 +31,13 @@ header {
     -webkit-background-clip: text;
     background-clip: text;
     -webkit-text-fill-color: transparent;
-    color:transparent
+    color:transparent;
+    transition: text-shadow 1s ease;
+    cursor: default;
+}
+
+#title span:hover {
+    text-shadow: 0.2rem 0.2rem 0.2rem #fff;
 }
 
 .container-top-menu {
@@ -46,7 +52,7 @@ header {
 .container-top-menu ul li {
     display: inline-block;
     text-align: center;
-    margin: 1rem;
+    margin: 0.5rem;
     font-family: Arial;
     font-size: 1.8rem;
     background: linear-gradient(#fff, #262646);
@@ -58,4 +64,9 @@ header {
 
 .container-top-menu ul li a {
     text-decoration: none;
+    transition: text-shadow 1s ease;
+}
+
+.container-top-menu ul li a:hover {
+    text-shadow: 0.1rem 0.1rem 0.1rem #fff;
 }
