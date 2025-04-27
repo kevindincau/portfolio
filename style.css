@@ -55,3 +55,7 @@ header {
     -webkit-text-fill-color: transparent;
     color:transparent
 }
+
+.container-top-menu ul li a {
+    text-decoration: none;
+}
