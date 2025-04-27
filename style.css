@@ -19,4 +19,7 @@ html {
 }
 
 #title span {
+    background: -webkit-linear-gradient(#fff, #57799b8c);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
