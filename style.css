@@ -1,7 +1,7 @@
 html {
     height: 100%;
     overflow: hidden;
-    background: radial-gradient(ellipse at bottom, #1b2735, #090a0f 100%);
+    background: radial-gradient(ellipse at bottom, #352d38, #040507 100%);
 }
 
 #title {
@@ -19,7 +19,7 @@ html {
 }
 
 #title span {
-    background: -webkit-linear-gradient(#fff, #57799b8c);
+    background: -webkit-linear-gradient(#fff, #262646);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
