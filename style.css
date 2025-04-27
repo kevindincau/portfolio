@@ -20,7 +20,7 @@ header {
     color: #fff;
     text-align: center;
     font-weight: 300;
-    font-size: 50px;
+    font-size: 5rem;
     letter-spacing: 10px;
     margin-top: -60px;
     padding-left: 10px;
@@ -48,7 +48,7 @@ header {
     text-align: center;
     margin: 1rem;
     font-family: Arial;
-    font-size: 25px;
+    font-size: 1.8rem;
     background: linear-gradient(#fff, #262646);
     -webkit-background-clip: text;
     background-clip: text;
