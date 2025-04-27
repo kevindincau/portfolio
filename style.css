@@ -4,6 +4,14 @@ html {
     background: radial-gradient(ellipse at bottom, #352d38, #040507 100%);
 }
 
+body {
+    margin: 0;
+}
+
+header {
+    padding: 1rem 2rem;
+}
+
 #title {
     position: absolute;
     top: 50%;
@@ -19,7 +27,31 @@ html {
 }
 
 #title span {
-    background: -webkit-linear-gradient(#fff, #262646);
+    background: linear-gradient(#fff, #262646);
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
+    color:transparent
+}
+
+.container-top-menu {
+    float: right;
+}
+
+.container-top-menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.container-top-menu ul li {
+    display: inline-block;
+    text-align: center;
+    margin: 1rem;
+    font-family: Arial;
+    font-size: 25px;
+    background: linear-gradient(#fff, #262646);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color:transparent
 }
