@@ -37,11 +37,7 @@ header {
 }
 
 #title span:hover {
-    text-shadow: 0.2rem 0.2rem 0.2rem #fff;
-}
-
-#title span:active {
-    text-shadow: 0.2rem 0.2rem 0.2rem #fff;
+    text-shadow: 0.2rem 0.2rem 0.2rem #ffffffcb;
 }
 
 .container-top-menu {
@@ -72,5 +68,5 @@ header {
 }
 
 .container-top-menu ul li a:hover {
-    text-shadow: 0.1rem 0.1rem 0.1rem #fff;
+    text-shadow: 0.1rem 0.1rem 0.1rem #ffffffcb;
 }
